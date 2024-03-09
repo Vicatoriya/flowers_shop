@@ -275,7 +275,7 @@ h1{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 40px 0   40px 0;
+    margin: 40px 0 40px 0;
 }
 
 .good{
@@ -284,4 +284,31 @@ h1{
 }
 .good img{
     width: 100%;
+}
+
+.rule {
+    text-align: center;
+    max-width: 60%;
+    margin: auto;
+    margin-top: 60px;
+}
+.rule img{
+    margin: auto;
+    width: 5%;
+    min-width: 40px;
+}
+
+#catalog_header{
+    margin: 40px 10% 0 10%;
+}
+
+#catalog_header_photo{
+    width: 100%;;
+}
+
+#catalog_header h4{
+    margin: 20px 0 2px 0 ;
+}
+#catalog_header #goods{
+    justify-content: space-between ;
 }
